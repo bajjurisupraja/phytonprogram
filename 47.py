@@ -1,0 +1,5 @@
+r=int(raw_input()) 
+list=[int(x) for x in raw_input().split()]
+s=min(list)
+r=max(list)
+print s,r
