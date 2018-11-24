@@ -1,6 +1,6 @@
-r,s=map(int,raw_input().split()) 
+k,z=map(int,raw_input().split()) 
 list=[int(z) for z in raw_input().split()] 
-if r and s in list: 
+if k and z in list: 
      print "yes" 
 else: 
      print "no"
