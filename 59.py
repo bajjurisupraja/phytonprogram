@@ -1,6 +1,6 @@
-r=int(raw_input())
+w=int(raw_input())
 count=0
-while r>0:
+while w>0:
     count=count+1
-    r=r//10
+    w=w//10
 print count 
