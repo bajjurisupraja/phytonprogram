@@ -6,7 +6,7 @@ def power(a,b):
                 res_even = power(a,b/2)
                 return res_even*res_even
         else :
-                r=(r-1)/2
+                b=(b-1)/2
                 res_odd= power(a,b)
                 return a*res_odd*res_odd
 pow = power(2,3)
