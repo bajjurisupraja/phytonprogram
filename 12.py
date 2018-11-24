@@ -2,9 +2,9 @@ num=int(raw_input())
 temp=num
 rev=0
  while temp!=0:
-    rev = (rev*10) + (temp%10)
-    temp = temp//10
+    rev = (rev*20) + (temp%20)
+    temp = temp//20
  if num == rev:
-    print("yes")
+    print "yes"
 else:
-    print("no")
+    print "no"
