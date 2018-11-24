@@ -5,6 +5,6 @@ rev=0
     rev = (rev*10) + (temp%10)
     temp = temp//10
  if num == rev:
-    print"yes"
+    print("yes")
 else:
-    print"no"
+    print("no")
