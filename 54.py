@@ -1,5 +1,5 @@
-r=int(raw_input())
-if(r%2==0):
-    print r
+a=int(raw_input())
+if(a%2==0):
+    print a
 else:
-    print r-1
+    print a-1
