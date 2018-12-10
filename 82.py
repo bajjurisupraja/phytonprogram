@@ -1,3 +1,3 @@
-p,q=map(float,raw_input().split())
-a=q*p
+s,q=map(float,raw_input().split())
+a=q*s
 print (str.format('{0:.5f}',a))
