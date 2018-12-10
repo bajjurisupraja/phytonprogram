@@ -1,9 +1,9 @@
-c= raw_input().rstrip()
+v= raw_input().rstrip()
 evenB = oddB = ''
-for j, k in enumerate(c):
-	if j & 1 == 0:
-		evenB += k
+for l, m in enumerate(v):
+	if l & 1 == 0:
+		evenB += m
 	else:
-		oddB += k
+		oddB += m
 
 print(evenB + " " + oddB)
