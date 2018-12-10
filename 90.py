@@ -1,5 +1,5 @@
-n=raw_input()
-if n.isalnum():
-    for a in n:
-        if a.isdigit():
-            print a,
+r=raw_input()
+if r.isalnum():
+    for s in r:
+        if s.isdigit():
+            print s,
