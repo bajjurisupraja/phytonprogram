@@ -1,10 +1,10 @@
 def sort(values):
-	for m range(len(values)):		
-		for n in range(m,len(values)):			
-			if (values[m] > values[n]):
-				temp = values[m]
-				values[m] = values[n]
-				values[n] = temp
+	for r range(len(values)):		
+		for s in range(r,len(values)):			
+			if (values[r] > values[s]):
+				temp = values[r]
+				values[r] = values[s]
+				values[s] = temp
 h= raw_input().rstrip()
 yList = list(h)
 sort(yList)
