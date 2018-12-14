@@ -1,10 +1,10 @@
 arr=raw_input()
-def smallest(arr,n):
+def smallest(arr,b):
     min=arr[0]
-    for i in range(1, n):
-        if arr[i]<min:
-             min=arr[i]
+    for i in range(1, b):
+        if arr[t]<min:
+             min=arr[t]
     return min
-n=len(arr)
-ans=smallest(arr,n)
+b=len(arr)
+ans=smallest(arr,b)
 print(ans)
