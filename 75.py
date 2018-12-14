@@ -1,6 +1,6 @@
 ss=raw_input()
-b=len(ss)
-a=list(ss)
+c=len(ss)
+n=list(ss)
 if b%2==0:
     m=b/2 - 1
     a[m]='*'
