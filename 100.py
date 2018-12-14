@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-	int n,a,product=1;
+	int c,s,product=1;
 	scanf("%d",&n);
 	while(n!=0)
 	{
