@@ -1,2 +1,2 @@
-d1,s1=map(int,raw_input().split())
-print(d1%(10**s1))
+h1,s1=map(int,raw_input().split())
+print(h1%(10**s1))
