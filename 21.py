@@ -1,4 +1,4 @@
-n,a,d=map(int,raw_input().split())
-c=a+d
-e=c*n
+s,c,d=map(int,raw_input().split())
+c=c+d
+e=c*s
 print(e)
