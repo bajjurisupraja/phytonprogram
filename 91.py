@@ -22,7 +22,7 @@ l=s.nextInt();
 	
 h=s.nextInt();
 	
-suface_area=(2*l*h)+(2*l*b)+(2*b*h);
+suface_area=(6*l*h)+(6*l*b)+(6*b*h);
 	
 volume=l*b*h;
 	
