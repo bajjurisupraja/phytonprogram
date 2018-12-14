@@ -2,10 +2,10 @@
 int main(void) 
 {
 
-	int c,k;
-	scanf("%d",&c);
+	int u,i;
+	scanf("%d",&u);
   
-	k=c+273;
+	i=u+273;
   
 	printf("%d",k);
   
