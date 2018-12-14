@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int p,r,t;
-scanf("%d%d%d",&p,&r,&t);
-printf(" %d",(p*r*t)/100);
+int t,h,d;
+scanf("%d%d%d",&t,&h,&d);
+printf(" %d",(t*h*d)/100);
 return 0;
 }
